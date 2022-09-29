@@ -56,3 +56,7 @@
     margin-left: 0;
 }
 
+.btn-seperate {
+    justify-content: space-between;
+}
+

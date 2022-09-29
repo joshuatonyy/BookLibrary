@@ -2,6 +2,7 @@
 @import 'shared/variables.css';
 @import 'shared/header.css';
 @import 'shared/buttons.css';
+@import 'shared/forms.css';
 
 :root {
     font-family: 'Source Code Pro';
