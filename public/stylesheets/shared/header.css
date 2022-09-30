@@ -1,7 +1,8 @@
 :root {
-    --nav-title-font-size: 3rem;
+    --nav-title-font-size: 4rem;
     --nav-title-font-weight: 600;
     --nav-link-font-weight: 400;
+    --nav-link-font-size: 1.5rem;
     --hover-font-color: #6bde3b;
 }
 
@@ -34,6 +35,7 @@
     text-decoration: none;
     color: var(--color-text-light);
     font-weight: var(--nav-link-font-weight);
+    font-size: var(--nav-link-font-size);
     padding: 1rem;
 }
 

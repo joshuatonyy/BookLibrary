@@ -3,6 +3,8 @@
 @import 'shared/header.css';
 @import 'shared/buttons.css';
 @import 'shared/forms.css';
+@import 'shared/authors.css';
+@import 'shared/books.css';
 
 :root {
     font-family: 'Source Code Pro';
@@ -29,6 +31,11 @@ body {
 }
 
 .page-title {
-    font-size: large;
+    font-size: 2.5rem;
+    font-weight: 600;
     text-align: center;
+}
+
+.error-message {
+    color: hsla(var(--color-danger-hue), 100%, 70%, 1);
 }
