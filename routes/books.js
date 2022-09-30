@@ -2,7 +2,7 @@ const express = require('express');
 const Author = require('../models/author');
 const Book = require('../models/book');
 const router = express.Router();
-const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif']
+const imageMimeTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/jpg']
 // ALL BOOKS ROUTE
 router.get('/', async (req, res) => {
     let query = Book.find()

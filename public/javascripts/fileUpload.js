@@ -1,7 +1,7 @@
-const rootStyles = window.getComputedStyle(document.documenteElement)
+const rootStyles = window.getComputedStyle(document.documentElement)
 
 if (rootStyles.getPropertyValue('--book-cover-width-large') != null && rootStyles.getPropertyValue('--book-cover-width-large') != '') {
-    ready();
+    ready()
 } else {
     document.getElementById('main-css').addEventListener('load', ready)
 }
@@ -19,7 +19,7 @@ function ready() {
     FilePond.setOptions({
         stylePanelAspectRatio: 1 / coverRatio,
         imageResizeTargetWidth: coverWidth,
-        imageResizeTargetHeight: coverHeight,
+        imageResizeTargetHeight: coverHeight
     })
 
     FilePond.parse(document.body);
